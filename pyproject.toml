@@ -1,0 +1,25 @@
+[project]
+name = "erp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "autoreject>=0.4.3",
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.9",
+    "mne>=1.12.1",
+    "mne-bids>=0.18.0",
+    "mne-qt-browser>=0.7.4",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pyvista>=0.48.0",
+    "pyvistaqt>=0.11.4",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+]
+
+[dependency-groups]
+dev = [
+    "notebook>=7.5.6",
+]
